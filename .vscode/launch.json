@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "S.I.G.A • Chrome (API Render)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "toolArgs": ["--web-port=8080"]
+    },
+    {
+      "name": "S.I.G.A • Apresentação (dados simulados)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "toolArgs": ["--web-port=8080", "--dart-define=DEMO_MODE=true"]
+    },
+    {
+      "name": "S.I.G.A • Android (API Render)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "android"
+    }
+  ]
+}
